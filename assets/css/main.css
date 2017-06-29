@@ -8,6 +8,7 @@
 */
 
 /* Reset */
+/* Original Color 4eb980*/
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1824,7 +1825,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #1e454f;
 		text-decoration: none;
 	}
 
@@ -2043,7 +2044,7 @@
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #4eb980;
+			border-color: #1e454f;
 		}
 
 	input[type="text"],
@@ -2137,6 +2138,11 @@
 			perspective: 500px;
 		}
 
+		.image.interview {
+			max-width: 100%;
+			max-height: 100%;			
+		}
+
 			.image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2201,6 +2207,11 @@
 	    font-size: 96px !important;
 	    color: white; 
             z-index: 1;
+	}
+
+	.mainlogo
+	{
+	   max-width:90%;
 	}
 
 /* List */
@@ -2433,7 +2444,7 @@
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: 18em;
 	}
 
 		.feature:after {
@@ -2563,7 +2574,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #1e454f;
 			}
 
 		#header strong, #header b {
@@ -2583,17 +2594,17 @@
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #1e454f;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
+			height: 4em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
+			width: 4em;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
@@ -2616,7 +2627,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #1e454f;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -2667,7 +2678,7 @@
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #1e454f;
 		}
 
 			#footer input[type="submit"]:hover,
